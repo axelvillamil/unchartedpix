@@ -1,0 +1,186 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT</title>
+	<meta name="author" content="Axel Villmil">
+	<meta name="the project" content="about page">
+	<link rel="stylesheet" type="text/css" href="styles/commercial.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="styles/animate.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400italic' rel='stylesheet' type='text/css'>
+	<link href="styles/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/logo-nav.css" rel="stylesheet">
+	<link href="styles/normalize.css" rel="stylesheet">
+	<link href="styles/set1.css" rel="stylesheet">
+	<link href="styles/font-awesome.css" rel="stylesheet">
+	<!-- <link href="styles/demo.css" rel="stylesheet"> -->
+
+	<script src="js/jquery.js"></script>
+	<script src="js/html5lightbox.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src='js/lodash.js'></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.ui.touch-punch.js"></script>
+	<script src='js/knockout-3.3.0.js'></script>
+
+
+</head>
+
+<body>
+
+	<script>
+
+	$(document).ready(contactcarouselWidth);
+	$(window).on('resize',contactcarouselWidth);
+
+	function contactcarouselWidth() {
+
+		var y = $(".nav-container").outerWidth();
+		$(".contact-carousel-cont").width(y);
+		$(".contact-info").width(y);
+
+		$(".fa-envelope-square").hover(
+			function () {
+				$(this).removeClass("fa-inverse");
+			},
+			function () {
+				$(this).addClass("fa-inverse");
+			}
+		);
+
+
+		// $(".effect-bubba").width(y);
+		console.log(y);
+	};
+	</script>
+
+	<script>
+
+	</script>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container nav-container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="home.html">
+									<img id="logo" src="img/uncharted_logo_full_opt.png" alt="">
+							</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+									<li>
+											<a href="commercial.html">COMMERCIAL</a>
+									</li>
+									<li>
+											<a href="branded.html">BRANDED</a>
+									</li>
+									<li>
+											<a href="experiential.html">EXPERIENTIAL</a>
+									</li>
+									<li>
+											<a class="nav-clicked" href="contact.html">CONTACT</a>
+									</li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right social">
+								<li><a href="https://vimeo.com/user19651173"><i class="fa fa-lg fa-vimeo"></i></a></li>
+								<li><a href="https://twitter.com/uncharted_pix"><i class="fa fa-lg fa-twitter"></i></a></li>
+								<li><a href="https://instagram.com/unchartedpictures/"><i class="fa fa-lg fa-instagram"></i></a></li>
+	            </ul>
+					</div>
+					<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+	</nav>
+
+<!-- HERO BANNER -->
+
+<div class="container contact-carousel-cont hero-banner">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/contact/roadstarr.png" alt="Chania">
+      </div>
+
+			<div class="item">
+				<img src="img/contact/swiss-exp.png" alt="Chania">
+			</div>
+
+			<div class="item">
+				<img src="img/contact/addidas-move.png" alt="Chania">
+			</div>
+
+			<div class="item">
+				<img src="img/contact/amara.png" alt="Chania">
+			</div>
+
+			<div class="item">
+				<img src="img/contact/vw-line.png" alt="Chania">
+			</div>
+
+	</div>
+<!-- Logo overlay -->
+<a id="mail-link" href="mailto:info@unchartedpix.com">
+	<p id="email-text">INFO@UNCHARTEDPIX.COM</p>
+</a>
+		<!-- <img id="img_banner_logo" src="img/uncharted_logo_full_opt.png" alt=""> -->
+		<a id="mail-link" href="mailto:info@unchartedpix.com">
+			<i id="img_banner_logo" class="fa fa-envelope-square fa-5x fa-inverse"></i>
+		</a>
+<!-- Logo overlay end -->
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!--HERO BANNER ENDS -->
+<div class="container contact-info hero-banner">
+	<div class="contact-text">
+			<p>UNCHARTED PICTURES IS A CONTENT CREATION STUDIO. WE ARE A
+				COLLECTIVE OF ARTISTS WHO CREATE ENGAGING NARRATIVES THROUGH
+				LIVE ACTION, MOTION GRAPHICS, AND VISUAL EFFECTS.</p>
+	</div>
+
+</div>
+
+<!-- PAGE CONTENT START -->
+
+
+<!-- PAGE CONTENT END -->
+
+
+</body>
+
+</html>

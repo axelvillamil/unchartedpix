@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background: #000;
+  color: white;
+  overflow: hidden;
+
+
+}
+
+.psmaller {
+  font-size: 23px !important;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.stopfade {
+   opacity: .5;
+}
+
+.social {
+  
+}
+
+#logo_fade_in {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#polina {
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 0.5rem;
+  width: 33%;
+  font-size: 1.2rem;
+
+
+}
+#des_title {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: rgba(248, 252, 248, 0.91);
+  width:500px;
+  height:100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18%;
+}
+
+#des_title button {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 1rem;
+  width: 33%;
+  font-size: 1.2rem;
+  margin-left: 30%;
+  margin-right: 20%;
+  margin-top: -25px;
+
+
+}
+#des_title button:hover {
+   background:white;
+   color: black;
+   border-color: black;
+   -webkit-transition: background-color 0.4s ease-in-out;
+   -moz-transition: background-color 0.4s ease-in-out;
+   -ms-transition: background-color 0.4s ease-in-out;
+   -o-transition: background-color 0.4s ease-in-out;
+   transition: background-color 0.4s ease-in-out;
+}
+
+
+
+#des_title {
+  -webkit-animation-duration: 7s;
+  -webkit-animation-delay: 2s;
+}
+
+#enter_button {
+    -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 5s;
+
+}
+
+@media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(img/strellson.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+
+button:focus {
+  outline:0;
+}

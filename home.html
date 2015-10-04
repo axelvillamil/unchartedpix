@@ -1,0 +1,428 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOME</title>
+	<meta name="author" content="Axel Villmil">
+	<meta name="the project" content="about page">
+	<link rel="stylesheet" type="text/css" href="styles/commercial.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="styles/animate.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400italic' rel='stylesheet' type='text/css'>
+	<link href="styles/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/logo-nav.css" rel="stylesheet">
+	<link href="styles/normalize.css" rel="stylesheet">
+	<link href="styles/set1.css" rel="stylesheet">
+	<link href="styles/font-awesome.css" rel="stylesheet">
+	<!-- <link href="styles/demo.css" rel="stylesheet"> -->
+
+	<script src="js/jquery.js"></script>
+	<script src="js/html5lightbox.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src='js/lodash.js'></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.ui.touch-punch.js"></script>
+	<script src='js/knockout-3.3.0.js'></script>
+	<script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="home.html">
+									<img id="logo" src="img/uncharted_logo_full_opt.png" alt="">
+							</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+									<li>
+											<a href="commercial.html">COMMERCIAL</a>
+									</li>
+									<li>
+											<a href="branded.html">BRANDED</a>
+									</li>
+									<li>
+											<a href="experiential.html">EXPERIENTIAL</a>
+									</li>
+									<li>
+											<a href="contact.html">CONTACT</a>
+									</li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right social">
+								<li><a href="https://vimeo.com/user19651173"><i class="fa fa-lg fa-vimeo"></i></a></li>
+								<li><a href="https://twitter.com/uncharted_pix"><i class="fa fa-lg fa-twitter"></i></a></li>
+								<li><a href="https://instagram.com/unchartedpictures/"><i class="fa fa-lg fa-instagram"></i></a></li>
+	            </ul>
+					<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+	</nav>
+
+<!-- HERO BANNER -->
+
+<div class="container hero-banner">
+  <br>
+  <div id="myCarousel" class="carousel slide carousel_cont" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+				<a href="https://player.vimeo.com/video/128445173" class="html5lightbox">
+        <img src="img/commercial/strellson.png" alt="Chania">
+			</a>
+				<div class="carousel-caption">
+        <h2>STRELLSON<h2>
+				<h3>DEBONAIR</h3>
+      </div>
+      </div>
+
+      <div class="item">
+				<a href="https://player.vimeo.com/video/136971274" class="html5lightbox">
+				<img src="img/commercial/vw.png">
+			</a>
+				<div class="carousel-caption">
+				<h2>VOLKSWAGEN GTI</h2>
+				<h3>RED LINE</h3>
+			</div>
+      </div>
+
+      <div class="item">
+				<a href="https://player.vimeo.com/video/133042968" class="html5lightbox">
+				<img src="img/commercial/peru.png">
+				</a>
+				<div class="carousel-caption">
+				<h2>PERU</h2>
+				<h3>TRAVEL PERU</h3>
+			</div>
+      </div>
+
+      <div class="item">
+					<a href="https://player.vimeo.com/video/136971273" class="html5lightbox">
+				<img src="img/commercial/pool-party.png">
+			</a>
+				<div class="carousel-caption">
+				<h2>AMARA</h2>
+				<h3>POOL PARTY</h3>
+			</div>
+      </div>
+
+			<div class="item">
+					<a href="https://player.vimeo.com/video/128445793" class="html5lightbox">
+				<img src="img/commercial/aventure.png">
+			</a>
+			<div class="carousel-caption">
+			<h2>MARIE JO</h2>
+			<h3>L'AVENTURE</h3>
+		</div>
+    </div>
+	</div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!--HERO BANNER ENDS -->
+
+<!-- PAGE CONTENT START -->
+	<!--ROW 1 -->
+
+<div class="container grid-container">
+
+<div class="row row-grid thumbnails">
+	<div class="col-md-4">
+		<figure class="effect-bubba">
+			<img class="grid-img" src="img/commercial/strellson.png">
+			<figcaption>
+				<h2>STRELLSON</h2>
+				<p>Debonair</p>
+				<a href="https://player.vimeo.com/video/128445173" class="html5lightbox">View more</a>
+			</figcaption>
+		</figure>
+	</div>
+	<div class="col-md-4">
+		<figure class="effect-bubba">
+		<img src="img/branded/swiss.png">
+		<figcaption>
+			<h2>SWISSOTEL HOTELS</h2>
+			<p>Experience</p>
+			<a href="https://player.vimeo.com/video/128444200" class="html5lightbox">View more</a>
+		</figcaption>
+	</figure>
+	</div>
+	<div class="col-md-4">
+		<figure class="effect-bubba">
+		<img src="img/commercial/beachlove.png">
+		<figcaption>
+			<h2>H&M</h2>
+			<p>beach love</p>
+			<a href="https://player.vimeo.com/video/132869873" class="html5lightbox">View more</a>
+		</figcaption>
+	</figure>
+	</div>
+</div>
+
+	<!--ROW 2 -->
+	<div class="row row-grid thumbnails">
+			<div class="col-md-4">
+		<figure class="effect-bubba">
+				<img src="img/commercial/amator.png">
+				<figcaption>
+					<h2>amator</h2>
+					<p>style de la rue</p>
+					<a href="https://player.vimeo.com/video/128446879" class="html5lightbox">View more</a>
+				</figcaption>
+			</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/commercial/vw.png">
+						<figcaption>
+							<h2>VOLKSWAGEN</h2>
+							<p>RED LINE</p>
+							<a href="https://player.vimeo.com/video/136971274" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/commercial/peru.png">
+						<figcaption>
+							<h2>PERU</h2>
+							<p>TRAVEL PERU</p>
+							<a href="https://player.vimeo.com/video/133042968" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+	</div>
+
+	<!--ROW 3 -->
+	<div class="row row-grid thumbnails">
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/commercial/aventure.png">
+						<figcaption>
+							<h2>marie jo</h2>
+							<p>l'aventure</p>
+							<a href="https://player.vimeo.com/video/128445793" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/commercial/henekein.png">
+						<figcaption>
+							<h2>henekein</h2>
+							<p>festival</p>
+							<a href="https://player.vimeo.com/video/128445794" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/commercial/hm.png">
+						<figcaption>
+							<h2>h&m</h2>
+							<p>fall wear</p>
+							<a href="https://player.vimeo.com/video/136971571" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+	</div>
+	<!--ROW 4 -->
+	<div class="row row-grid thumbnails">
+		<div class="col-md-4">
+			<figure class="effect-bubba">
+					<img src="img/branded/swisswine.png">
+					<figcaption>
+						<h2>SWISSotel HOTELS</h2>
+						<p>wine and dine</p>
+						<a href="https://player.vimeo.com/134627477" class="html5lightbox">View more</a>
+					</figcaption>
+				</figure>
+		</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/experiential/mercedes.png">
+						<figcaption>
+							<h2>MERCEDES BENZ</h2>
+							<p>style coupe launch</p>
+							<a href="https://player.vimeo.com/video/128445169" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/commercial/move.png">
+						<figcaption>
+							<h2>ADDIDAS</h2>
+							<p>move</p>
+							<a href="https://player.vimeo.com/video/128447306" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+	</div>
+
+	<!-- ROW 5-->
+	<div class="row row-grid thumbnails">
+		<div class="col-md-4">
+			<figure class="effect-bubba">
+					<img src="img/branded/jameson.png">
+					<figcaption>
+						<h2>Jameson</h2>
+						<p>round one</p>
+						<a href="https://player.vimeo.com/video/128445170" class="html5lightbox">View more</a>
+					</figcaption>
+				</figure>
+		</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/commercial/pool-party.png">
+						<figcaption>
+							<h2>Amara</h2>
+							<p>pool party</p>
+							<a href="https://player.vimeo.com/video/136971273" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/branded/roadstarr.png">
+						<figcaption>
+							<h2>ROADSTARR</h2>
+							<p>MERCEDES BRANDED FILM</p>
+							<a href="https://player.vimeo.com/video/136971272" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+	</div>
+
+	<!-- ROW 5 -->
+	<div class="row row-grid thumbnails">
+
+		<div class="col-md-4">
+			<figure class="effect-bubba">
+					<img src="img/branded/samsung.png">
+					<figcaption>
+						<h2>samsung</h2>
+						<p>who is notasso</p>
+						<a href="https://player.vimeo.com/video/128445168" class="html5lightbox">View more</a>
+					</figcaption>
+				</figure>
+		</div>
+		<div class="col-md-4">
+			<figure class="effect-bubba">
+					<img src="img/branded/escape.png">
+					<figcaption>
+						<h2>ROYAL CARIBBEAN</h2>
+						<p>EXPLORE THE WORLD</p>
+						<a href="#" class="html5lightbox">View more</a>
+					</figcaption>
+				</figure>
+		</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/branded/wunderbar.png">
+						<figcaption>
+							<h2>WUNDERBAR</h2>
+							<p>indulge</p>
+							<a href="https://player.vimeo.com/video/128444199" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+	</div>
+
+	<!-- ROW 6 -->
+	<div class="row row-grid thumbnails">
+		<div class="col-md-4">
+			<figure class="effect-bubba">
+					<img src="img/experiential/matrix.png">
+					<figcaption>
+						<h2>MATRIX GROUP</h2>
+						<p>commercial real estate</p>
+						<a href="https://player.vimeo.com/video/132542615" class="html5lightbox">View more</a>
+					</figcaption>
+				</figure>
+		</div>
+		<div class="col-md-4">
+			<figure class="effect-bubba">
+					<img src="img/experiential/cerva.png">
+					<figcaption>
+						<h2>CERAVE</h2>
+						<p>cerave nights</p>
+						<a href="https://player.vimeo.com/video/132542614" class="html5lightbox">View more</a>
+					</figcaption>
+				</figure>
+		</div>
+			<div class="col-md-4">
+				<figure class="effect-bubba">
+						<img src="img/experiential/condor.png">
+						<figcaption>
+							<h2>condor security</h2>
+							<p>drive</p>
+							<a href="https://player.vimeo.com/video/132542617" class="html5lightbox">View more</a>
+						</figcaption>
+					</figure>
+			</div>
+	</div>
+	<!--ROWS END -->
+
+</div>
+
+<!-- GRID ENDS -->
+
+
+<!-- PAGE CONTENT END -->
+<div class="navbar navbar-inverse navbar-bottom">
+	<div class="container bot-container">
+		<p class="credits">
+			UNCHARTED<br> PICTURES<br>
+			designed by Red Label Studios
+		</p>
+		<p class="axel"> 
+			INFO@UNCHARTEDPIX.COM
+		</p>
+	</div>
+</div>
+
+</body>
+
+
+
+
+
+
+
+</html>

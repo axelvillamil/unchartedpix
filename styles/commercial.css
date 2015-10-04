@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  background-color: #000 !important;
+  font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+#logo {
+  width: 200;
+  margin-top: 16px;
+}
+
+#img_banner_logo {
+  width: 55%;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 43%;
+  left: 23%;
+
+}
+
+
+.navbar-nav {
+  margin-top: 6px !important;
+  margin-left: 10px !important;
+}
+
+.navbar-inverse {
+  background-color: #000 !important;
+}
+
+.nav-clicked {
+  background-color: white;
+  color: black !important;
+}
+
+.nav-clicked:hover{
+  background-color: white !important;
+  color: black !important;
+}
+
+.carousel-caption h2 {
+    font-weight: 500;
+    font-size: 6vw;
+}
+
+.carousel-caption h3 {
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+
+/* GRID STUFF */
+
+.grid-container {
+  margin-bottom: 25px;
+}
+
+.row-grid {
+
+}
+
+.thumbnails img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* GRID STUFF END */
+
+/* CONTACT */
+
+.contact-info {
+  background-color: #161616;
+  margin-bottom: 20px;
+
+}
+
+.contact-email {
+  color: white;
+  font-size: 3em;
+}
+
+#email-text {
+  width: 55%;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 43%;
+  left: 23%;
+  color: white;
+  top: 35%;
+  font-size: 2.0vw
+}
+
+#email-text:hover {
+  color: black;
+
+}
+
+#mail-link {
+  color: black;
+}
+
+
+
+.hero-banner {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.contact-text {
+  color: #BCBABA;
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+/*FOOTER*/
+
+.credits {
+  float: left;
+}
+
+.axel {
+  float: right;
+}
+
+.navbar-bottom .container p {
+  padding-top: 10px;
+}
+
+.bot-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

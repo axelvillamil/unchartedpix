@@ -1,0 +1,187 @@
+body {
+	background-color: black;
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow: hidden;
+
+}
+
+#webCamWindow {
+	border: 1px solid #ababab;
+	width: 50%;
+	height: 480px;
+	top: 0;
+	opacity: 1;
+	left: 0;	
+}
+
+#canvas {
+	position: absolute;
+	opacity: 1;
+	top: 0;
+	left: 0;
+	width: 640px;
+	height:  480px;
+}
+
+#movement {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid red;
+	background: rgba(255,0,0,0.3);
+}
+
+#numprint {
+	width: 50%;
+	height: 400px;
+	border: 1px solid #ababab;
+	float: right;
+	word-wrap: break-word;
+	overflow-y: scroll;
+	-webkit-transition: color 1s 2s ease-in;
+   -moz-transition: color 1s 2s ease-in;
+   -ms-transition: color 1s 2s ease-in;
+   -o-transition: color 1s 2s ease-in;
+   transition: color 1s 2s ease-in;
+   font-family: 'Oswald', sans-serif;
+
+}
+
+#startbutton {
+	margin-top: 500px;
+	float: right;
+}
+
+#polina { 
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 3rem;
+  width: 40%;
+  float: right;
+  font-size: 1.2rem;
+  margin-top: -125px;
+  margin-right: 6.5%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#polina button { 
+ font-family: 'Alegreya Sans', sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 0.5rem;
+  margin: 4px;
+  width: 25%;
+  font-size: 1.2rem;
+}
+#aboutbutton:hover { 
+   background-color: rgba(70, 185, 108, 0.84);
+      -webkit-transition: background-color 0.5s ease-in-out;
+   -moz-transition: background-color 0.5s ease-in-out;
+   -ms-transition: background-color 0.5s ease-in-out;
+   -o-transition: background-color 0.5s ease-in-out;
+   transition: background-color 0.5s ease-in-out;
+}
+
+#launchbutton:hover { 
+   background-color: rgba(70, 170, 185, 0.84);
+      -webkit-transition: background-color 0.5s ease-in-out;
+   -moz-transition: background-color 0.5s ease-in-out;
+   -ms-transition: background-color 0.5s ease-in-out;
+   -o-transition: background-color 0.5s ease-in-out;
+   transition: background-color 0.5s ease-in-out;
+}
+
+#stopbutton:hover { 
+   background-color: rgba(185, 70, 70, 0.84);
+      -webkit-transition: background-color 0.5s ease-in-out;
+   -moz-transition: background-color 0.5s ease-in-out;
+   -ms-transition: background-color 0.5s ease-in-out;
+   -o-transition: background-color 0.5s ease-in-out;
+   transition: background-color 0.5s ease-in-out;
+}
+
+#cmd:hover { 
+   background-color: rgba(185, 135, 70, 0.84);
+      -webkit-transition: background-color 0.5s ease-in-out;
+   -moz-transition: background-color 0.5s ease-in-out;
+   -ms-transition: background-color 0.5s ease-in-out;
+   -o-transition: background-color 0.5s ease-in-out;
+   transition: background-color 0.5s ease-in-out;
+}
+
+#clearbutton:hover {
+   background-color: rgba(185, 70, 166, 1);
+      -webkit-transition: background-color 0.5s ease-in-out;
+   -moz-transition: background-color 0.5s ease-in-out;
+   -ms-transition: background-color 0.5s ease-in-out;
+   -o-transition: background-color 0.5s ease-in-out;
+   transition: background-color 0.5s ease-in-out;
+
+}
+
+
+
+#description {
+font-family: 'Pontano Sans', sans-serif;
+}
+
+#quote {
+color: rgba(255, 255, 255, 0.84);
+font-style: italic;
+
+}
+
+#polina {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 1s;
+}
+
+#aboutbutton {
+    -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 3s;
+
+}
+
+#launchbutton {
+    -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 4s;
+
+}
+
+#stopbutton {
+    -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 5s;
+
+}
+
+#cmd {
+    -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 7s;
+
+}
+
+#clearbutton {
+	    -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 6s;
+
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+
+}
+
+
+button:focus {
+  outline:0;
+}
+
+
