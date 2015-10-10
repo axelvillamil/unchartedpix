@@ -20,7 +20,6 @@ body {
 
 }
 
-
 .navbar-nav {
   margin-top: 6px !important;
   margin-left: 10px !important;
@@ -28,6 +27,18 @@ body {
 
 .navbar-inverse {
   background-color: #000 !important;
+}
+
+.navbar-bottom {
+  background-color: #161616 !important;
+  margin-bottom: 0 !important;
+  color: #9d9d9d;
+}
+
+.navbar-fixed-bottom {
+  background-color: #161616 !important;
+  margin-bottom: 0 !important;
+  color: #9d9d9d;
 }
 
 .nav-clicked {
@@ -115,7 +126,8 @@ body {
   vertical-align: middle;
   margin-top: 40px;
   margin-bottom: 40px;
-  padding-left: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*FOOTER*/
@@ -129,6 +141,10 @@ body {
 }
 
 .navbar-bottom .container p {
+  padding-top: 10px;
+}
+
+.navbar-fixed-bottom .container p {
   padding-top: 10px;
 }
 
