@@ -11,6 +11,7 @@ body {
 }
 
 #img_banner_logo {
+  font-size: 85px;
   width: 55%;
   position: absolute;
   text-align: center;
@@ -18,6 +19,14 @@ body {
   top: 43%;
   left: 23%;
 
+}
+
+#nav-mail {
+  color: #9d9d9d;
+}
+
+#nav-mail:hover {
+  color: #616161;
 }
 
 .navbar-nav {
@@ -90,6 +99,18 @@ body {
 .contact-email {
   color: white;
   font-size: 3em;
+}
+
+#phone-number {
+    width: 55%;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    top: 43%;
+    left: 23%;
+    color: white;
+    top: 26%;
+    font-size: 2.0vw
 }
 
 #email-text {
